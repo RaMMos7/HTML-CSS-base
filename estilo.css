@@ -1,0 +1,175 @@
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #212427;
+    font-family: Arial, sans-serif;
+}
+.backgroundfix {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shapeinside {
+    width: auto;
+    max-width: 1000px;
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    background-color: #363B40;
+    padding: 20px;
+
+}
+.calender {
+    display: flex;
+    align-items: center;
+}
+.calender img {
+    width: 3.6%;
+    margin-right: 10px;
+    height: auto;
+}
+
+
+.paint {
+    display: flex;
+    align-items: center;
+}
+.paint img {
+    width: 3.6%;
+    margin-right: 10px;
+    height: auto;
+}
+.custom-btn {
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+}
+.custom-btn.active {
+    background-color: #007bff;
+    color: white;
+}
+
+
+.form-group label {
+    color: #C8CDD0;
+    font-size: 16px;
+}
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #2A2F34;
+    border: 1px solid #555;
+    margin-top: 10px;
+}
+.form-control:focus {
+    background-color: #2A2F34;
+    border-color: #007bff;
+    color: white;
+}
+.btn-group {
+    margin-bottom: 20px;
+}
+.btn-light {
+    background-color: #444;
+    color: white;
+    border: 1px solid #555;
+}
+.btn-light:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.cor-opcao {
+    display: inline-block;
+    padding: 17px;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 90px;
+}
+.cor-opcao.selected {
+    border: 2px solid #555;
+    border-color: #007bff; 
+    background-color: #f7f3f1;
+}
+
+
+
+.turno-opcao2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 150px;
+    height: 125px;
+    background-color: #212427;
+    border: 2px solid #F9F9F9;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.turno-opcao2:hover {
+    transform: scale(1.05);
+}
+
+.turno-opcao2.selected {
+    border-color: #007bff;
+    background-color: #f7f3f12b;
+}
+
+.turno-opcao2 img {
+    width: 140px;
+    height: 64px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.turno-opcao2 p {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.custom-toggle {
+    width: 50px;
+    height: 24px;
+    background-color: #2b2b2b;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.custom-toggle::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #3a3a3a;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s;
+}
+
+.custom-toggle.active {
+    background-color: #3a3a3a;
+}
+
+.custom-toggle.active::before {
+    transform: translateX(26px);
+    background-color: #fff;
+}
