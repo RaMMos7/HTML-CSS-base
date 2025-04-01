@@ -18,7 +18,8 @@ Este repositório documenta as atividades básicas de HTML e CSS realizadas no c
 [Projeto no Figma](https://www.figma.com/design/it7P3SeEr5Lp5c3gsEl8lJ/Formul%C3%A1rio-de-convite-(Community)?node-id=0-1&p=f&t=cCroeCpwtaS3fWRf-0)
 
 ## Preview do Projeto
-![Imagem do Projeto](caminho/para/imagem_do_projeto.png)
+![Imagem do Projeto](![image](https://github.com/user-attachments/assets/b023a87d-a359-42f9-a0e0-05a35f0d4049)
+)
 
 ## Como Executar o Projeto
 1. Clone este repositório:
