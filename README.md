@@ -1,46 +1,32 @@
-# README - Atividades Básicas de HTML e CSS
+# README - Atividades Básicas de HTML e CSS no SENAI
 
-## Introdução
-Este repositório contém as atividades básicas de HTML e CSS desenvolvidas durante o curso no SENAI. O objetivo dessas atividades foi aprender os fundamentos da estrutura de páginas web e estilização com CSS.
+## Descrição
+Este repositório documenta as atividades básicas de HTML e CSS realizadas no curso do SENAI. O projeto consiste na criação de um formulário de matrícula para a escola "Estrelas do Amanhã", aplicando conceitos fundamentais de estruturação de páginas, estilização e responsividade.
 
 ## Tecnologias Utilizadas
-- **HTML5**: Utilizado para a estruturação do conteúdo das páginas.
-- **CSS3**: Utilizado para estilização e layout das páginas.
+- HTML5
+- CSS3
+- Bootstrap 4
 
-## Atividades Realizadas
-1. **Criação de uma página HTML simples**
-   - Uso das principais tags como `<html>`, `<head>`, `<body>`, `<h1>`, `<p>`, `<img>`, `<a>`.
-   
-2. **Uso de listas e tabelas**
-   - Criação de listas ordenadas `<ol>` e não ordenadas `<ul>`.
-   - Estruturação de tabelas com `<table>`, `<tr>`, `<td>`, `<th>`.
+## Funcionalidades
+- Formulário de matrícula com validação de campos
+- Upload de arquivos
+- Seção para seleção de turno e esportes
+- Layout responsivo
 
-3. **Formulários em HTML**
-   - Uso de `<form>`, `<input>`, `<label>`, `<select>`, `<button>`.
-   - Validação de formulários utilizando atributos como `required` e `placeholder`.
+## Link do Projeto no Figma
+[Projeto no Figma](https://www.figma.com/design/it7P3SeEr5Lp5c3gsEl8lJ/Formul%C3%A1rio-de-convite-(Community)?node-id=0-1&p=f&t=cCroeCpwtaS3fWRf-0)
 
-4. **Introdução ao CSS**
-   - Aplicando estilos utilizando seletores como `class` e `id`.
-   - Uso de cores, fontes e espaçamentos com propriedades `color`, `font-size`, `margin`, `padding`.
+## Preview do Projeto
+![Imagem do Projeto](caminho/para/imagem_do_projeto.png)
 
-5. **Layout com CSS**
-   - Uso de display `flexbox` e `grid` para organizar elementos.
-   - Posicionamento com `position`, `float`, `z-index`.
-   
-6. **Estilização Avançada**
-   - Trabalhando com `hover`, `transition` e `animations` para efeitos visuais.
-   - Uso de `media queries` para responsividade.
-
-## Como Executar as Atividades
+## Como Executar o Projeto
 1. Clone este repositório:
    ```sh
    git clone https://github.com/seu-usuario/seu-repositorio.git
    ```
-2. Acesse o diretório do projeto:
-   ```sh
-   cd nome-do-diretorio
-   ```
-3. Abra os arquivos `.html` no navegador para visualizar as páginas.
+2. Abra o arquivo `index.html` em um navegador.
 
-## Conclusão
-As atividades desenvolvidas ajudaram a reforçar os conceitos de estruturação de páginas e estilização. Este repositório pode servir como referência para projetos futuros ou para quem está iniciando no desenvolvimento web.
+## Autor
+Desenvolvido durante as aulas do SENAI.
+
